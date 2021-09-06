@@ -2,12 +2,12 @@
 
 int analogPin = 0;
 
-void setup()                 
+void setup()
 {
  Serial.begin(115200);
 }
 
-void loop()                   
+void loop()
 {
   int value = analogRead(analogPin);
   byte data = (value >> 2);
